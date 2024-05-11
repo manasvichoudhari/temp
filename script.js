@@ -2,15 +2,10 @@ function convert(){
   
     let input= document.querySelector("#user_input").value;
     input= parseFloat(input);
-   
-   
-   
-   
-    let from = document.querySelector("#from").value;
-    let to = document.querySelector("#to").value;
+  let from = document.querySelector("#from").value;
+  let to = document.querySelector("#to").value;
 
-
-    let result ; 
+  let result ; 
     switch(from){
     case "c":
     switch(to){
@@ -27,6 +22,7 @@ function convert(){
             console.log(result)
         }
         break;
+        
         case "f":
         switch(to){
                 case "c":
@@ -40,6 +36,7 @@ function convert(){
         default:
             result = input ;
         }
+        
 break;
     case "k":
      switch(to){
@@ -56,7 +53,7 @@ break;
                         result = input ;
                         console.log(result);
                     }
-                    return result;
+                  
     }
  
     var final = document.querySelector("#final");
