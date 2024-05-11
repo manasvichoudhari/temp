@@ -1,7 +1,7 @@
 function convert(){
   
     let input= document.querySelector("#user_input").value;
-    input= Number(input);
+    input= parseFloat(input);
    
    
    
