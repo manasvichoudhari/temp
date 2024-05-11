@@ -13,16 +13,13 @@ function convert(){
     let result ; 
     switch(from){
     case "c":
-    case "celcius":
-        switch(to){
+    switch(to){
             case "f":
-            case "fahrenheit":
-                result = (input*9)/5+32;
+             result = (input*9)/5+32;
                 console.log(result);
                 break;
       case "k":
-      case "kelvin":
-        result = input+ 273.15;
+       result = input+ 273.15;
         console.log(result)
         break ;
         default:
@@ -31,16 +28,13 @@ function convert(){
         }
         break;
         case "f":
-        case "fahrenheit":
-            switch(to){
+        switch(to){
                 case "c":
-                case "celcius":  
-                    result = (input-32)*5/9;
+                  result = (input-32)*5/9;
                     console.log(result)
                     break;
       case "k":
-      case "kelvin":
-        result= (input-32)*5/9+273.15;
+       result= (input-32)*5/9+273.15;
         console.log(result);
         break;
         default:
@@ -48,16 +42,13 @@ function convert(){
         }
 break;
     case "k":
-      case "kelvin":
-        switch(to){
+     switch(to){
             case "c":
-                case "celcius":  
-                result= input-273.15;
+              result= input-273.15;
                 console.log(result);
                 break;
 
                 case "f":
-                    case "fahrenheit":  
                     result=input -(273.15 ) * 9/5+32;
                     console.log(result);
                     break;
